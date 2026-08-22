@@ -1,0 +1,9 @@
+pandas
+scikit-learn
+joblib
+streamlit
+fastapi
+uvicorn
+google-genai
+python-dotenv
+psycopg2-binary
