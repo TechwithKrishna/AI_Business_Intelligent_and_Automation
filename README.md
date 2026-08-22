@@ -1,10 +1,10 @@
-AI Business Intelligent and Automation
+## AI Business Intelligent and Automation
 
 An AI-powered business intelligence and automation system that analyzes customer reviews and order data to identify recurring issues, measure customer sentiment, generate business recommendations, and automate dashboard insights.
 
 The project combines Python, NLP, PostgreSQL, Flask API, Streamlit, and Google Gemini LLM to transform raw business data into actionable insights.
 
-🚀 Project Overview
+## 🚀 Project Overview
 
 The system is designed around two major business use cases:
 
@@ -45,7 +45,7 @@ Flask — Backend API for serving application functionality.
 Streamlit — Interactive business intelligence dashboard.
 Pandas — Data processing and analysis.
 dotenv — Environment variable and API-key management.
-📊 Dataset
+## 📊 Dataset
 
 The project primarily works with two types of datasets.
 
@@ -79,7 +79,7 @@ Review Date
 
 By combining order information with customer reviews, the system can understand not only what customers are saying, but also which products, orders, or business segments are associated with that feedback.
 
-🧠 AI and NLP Workflow
+## 🧠 AI and NLP Workflow
                  ┌─────────────────────┐
                  │    Orders Dataset   │
                  └──────────┬──────────┘
@@ -129,7 +129,7 @@ By combining order information with customer reviews, the system can understand 
                  │     Dashboard       │
                  └─────────────────────┘
 
-📁 Project Structure
+## 📁 Project Structure
 AI-Business-Intelligent-and-Automation/
 │
 ├── .venv/
@@ -168,7 +168,7 @@ AI-Business-Intelligent-and-Automation/
 └── requirements.txt
     └── Python dependencies
 
-🧩 Project Components
+## 🧩 Project Components
 Preprocessing
 
 The Preprocessing module prepares raw datasets for further analysis.
@@ -261,7 +261,7 @@ Review Trends.
 Order Trends.
 Product Performance.
 AI Recommendations.
-⚙️ Installation
+## ⚙️ Installation
 1. Clone the Repository
 git clone <repository-url>
 cd AI-Business-Intelligent-and-Automation
@@ -278,7 +278,7 @@ source .venv/bin/activate
 3. Install Dependencies
 pip install -r requirements.txt
 
-🔐 Environment Variables
+## 🔐 Environment Variables
 
 Create a .env file in the project root.
 
@@ -298,7 +298,7 @@ DB_PASSWORD=your_password
 
 Do not commit your .env file or API keys to GitHub.
 
-▶️ Running the Project
+## ▶️ Running the Project
 
 After installing all dependencies and configuring the .env file, the project requires two terminals to run the backend API and Streamlit dashboard.
 
@@ -336,7 +336,7 @@ If your Streamlit entry-point file has a different name or location, replace Das
 
 Keep this terminal running as well.
 
-🖥️ Application Architecture
+## 🖥️ Application Architecture
 
 Once both services are running:
 
@@ -363,7 +363,7 @@ Once both services are running:
 
 The Streamlit dashboard communicates with the Flask API, while the backend interacts with the database, NLP models, AI agent, and Gemini LLM.
 
-📈 Example Business Insights
+## 📈 Example Business Insights
 
 The system can generate insights such as:
 
@@ -375,7 +375,7 @@ Repeat customers are generating a higher average order value compared with first
 
 Products with high ratings and positive customer sentiment can be prioritized in marketing campaigns.
 
-💡 Business Recommendations
+## 💡 Business Recommendations
 
 Based on the combined analysis of orders and reviews, the system can recommend:
 
@@ -388,7 +388,7 @@ Promote highly rated products.
 Investigate products with increasing negative sentiment.
 Optimize marketing campaigns.
 Identify products with strong repeat-purchase behavior.
-🎯 Project Goals
+## 🎯 Project Goals
 
 The primary goals of AI Business Intelligent and Automation are:
 
@@ -401,7 +401,7 @@ Automate business reporting.
 Reduce manual data analysis.
 Provide useful insights through dashboards.
 Help businesses make data-driven decisions.
-🔮 Future Enhancements
+## 🔮 Future Enhancements
 
 Possible future improvements include:
 
@@ -417,7 +417,7 @@ Multi-language sentiment analysis.
 Automated weekly and monthly business reports.
 Integration with CRM and e-commerce platforms.
 Real-time anomaly detection.
-🔒 Security
+## 🔒 Security
 
 Sensitive information such as API keys, database passwords, and credentials should be stored in environment variables.
 
@@ -428,7 +428,7 @@ Recommended .gitignore entries:
 __pycache__/
 *.pyc
 
-📌 Summary
+## 📌 Summary
 
 AI Business Intelligent and Automation is an end-to-end AI-powered business analytics system that combines:
 
